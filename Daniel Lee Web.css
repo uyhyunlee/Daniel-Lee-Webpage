@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    background-color: #f5f5f5;
+    position: relative;
+    font-family: "Poppins", sans-serif, !important;
+}
+
+/* SECTION MAIN */
+
+/* main content */
+.main {
+    text-align: center;
+    margin: 50px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* navigation bar */
+
+nav a {
+    background: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    transition: transform 0.2s;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 0;
+    font-size: 12.5px;
+
+}
+
+nav span {
+    display: inline-block;
+}
+
+#logo {
+    width: 100px;
+    height: 40px;
+    padding: 0px, 60px;
+    vertical-align: middle;
+}
+
+nav {
+    height: 60px;
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.b1:hover {
+    color: #ff4747;
+    text-shadow: 0rem 0.2rem 5px #ff474773;
+    transform: translateY(-0.2em);
+}
+
+.b2:hover {
+    color: #60a149;
+    text-shadow: 0rem 0.2rem 5px #60a14973;
+    transform: translateY(-0.2em);
+}
+.b3:hover {
+    color: #4e59c0;
+    text-shadow: 0rem 0.2rem 5px #4e59c073;
+    transform: translateY(-0.2em);
+}
+
+
+/* description of me */
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+}
+
+
+.text {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+
+.description {
+    display: inline-block;
+    text-align: right;
+    margin-right: 60px;
+}
+
+ 
+#student {
+    color: #ff4747;
+}
+
+#videographer {
+    color: #60a149;
+}
+
+#designer {
+    color: #4e59c0;
+}
+
+.collaborate  {
+    margin-top: 40px;
+
+}
+
+.collaborate button {
+    font-size: 25px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    padding: 12px 35px;
+    color: white;
+    background-color: black;
+    border-width: 0;
+    border-radius: 30px;
+    box-shadow: 0rem 0.2rem 10px rgb(70, 70, 70);
+    transition: all 0.2s;
+}
+
+.collaborate button:hover {
+    background-color: #363636;
+    box-shadow: none;
+}
+
+#test {
+    font-size: 25px; 
+    font-weight: 100;
+}
+
+
+/* photo of me */
+
+#portrait {
+    width: 410px;
+    height: 461px;
+    border-radius: 40px;
+    margin: 0;
+    box-shadow: 0rem 0.2rem 12px grey;
+}
+
+/* SECTION ABOUT ME */
+#about {
+    width: 1386px;
+    height: 575px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#about h1 {
+    margin-bottom: 30px;
+}
+
+div.about {
+    font-size: 20px;
+    font-family: "Poppins";
+    width: 700px;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 977px) {
+    h1 {
+        font-size: 40px;
+    }
+    .text {
+        font-size: 25px;
+    }
+    #portrait {
+        width: 350px;
+        height: 401px;
+        border-radius: 40px;
+        margin: 0;
+        box-shadow: 0rem 0.2rem 12px grey;
+    }
+
+}
+
+
+
+
